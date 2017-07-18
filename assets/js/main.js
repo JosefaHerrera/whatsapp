@@ -11,7 +11,7 @@ $(document).ready(function() {
             console.log(chatInput);
             // si no ingresan tareas
             if (chatInput === '') {
-                alert('Debes ingresar una tarea');
+                alert('Debes ingresar un mensaje');
             } else {
             	//array par guardar las tareas 
                 var tareas = [];
